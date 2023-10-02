@@ -1,8 +1,17 @@
-# React + Vite
+# Boilerplate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a repo to create boilerplate for our projects:
+- React JS App
+- React TS App
+- PWA React JS App
+- PWA React TS App
+- PWA HTML/CSS/JS
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ToDo List:
+- [x] Start Repo :tada:
+- [x] Folder architecture.
+- [x] Create api-client.js file to handle requests to the server.
+- [x] Create useAsync hook to handle Async calls.
+- [x] Add SASS to create utilities, components, etc. To maintain our CSS.
+- [x] postcss-preset-env to convert modern CSS into something most browsers can understand.
+- [ ] Documentation
