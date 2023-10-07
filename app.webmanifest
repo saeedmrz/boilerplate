@@ -17,5 +17,19 @@
   "scope": "./",
 
   "_comment_display": "Standalone means you actually want your web content to be rendered as a standalone application. Options: minimal-ui/browser/fullscreen",
-  "display": "standalone"
+  "display": "standalone",
+
+  "_comment_icons": "Recommmendations: size: 512*512 for mobile app.  1024*1024 for desktop. it can be a cdn. For IOS icon see index.html type: png",
+  "icons": [
+    {
+      "src": "",
+      "sizes": "512*512",
+      "type": "image/png"
+    },
+    {
+      "src": "",
+      "sizes": "1024*1024",
+      "type": "image/png"
+    }
+  ]
 }
