@@ -1,0 +1,21 @@
+{
+  "name": "A PWA boilerplate project.",
+
+  "_comment_short_name": "Name of the app in device. It should be 12 chars long.",
+  "short_name": "PWA Boiler",
+
+  "_comment_start_url": "Receives URL relative to manifest.",
+  "start_url": "./",
+
+  "_comment_orientation": "options: all, portrait, landscape. note: safari does not support orientation, so we can use media queries to say if landscape it is not supported.",
+  "orientation": "portrait",
+
+  "_comment_theme_color": "It is safe to be stay within RGB colors, RGB function or named colors(blue). (see index.html for meta color).",
+  "theme_color": "#ffc252",
+
+  "_comment_scope": "Defines what is within the app and what is outside the app",
+  "scope": "./",
+
+  "_comment_display": "Standalone means you actually want your web content to be rendered as a standalone application. Options: minimal-ui/browser/fullscreen",
+  "display": "standalone"
+}
