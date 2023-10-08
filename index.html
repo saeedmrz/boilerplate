@@ -4,13 +4,19 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="manifest" href="app.webmanifest" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- we are adding viewport-fit=cover here. OS gives all available viewport. -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
     <!-- We can change the content of this theme-color via JavaScript.
      So we can have different them color based on where you are,
      which routing of web app you are, or the current state of the app. 
      You can add media property to it for example have different theme colors\
      based on light or dark theme. -->
     <meta name="theme-color" content="#ffc252" />
+    <!-- logo for IOS -->
+    <link rel="apple-touch-icon" href="./src/img/logo-512.png" />
     <title>Vite + React</title>
   </head>
   <body>
