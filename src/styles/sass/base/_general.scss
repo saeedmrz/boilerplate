@@ -16,16 +16,3 @@ a {
 a:is(:hover, :focus) {
   color: $link-color-hover;
 }
-
-// for PWA: display-mode: standalone means when we are in standalone mode
-// in our app.we want to fix the toolbar problem of the app (unsafe area)
-// we assume we have a toolbar under app, we can select that and give
-// padding to it if it is under safe are (bottom of ios menu), it will
-// automatically not add padding to IOS with menu button.
-// ----------------------------------------------------------------------
-// @media (display-mode: standalone) {
-//   body > .toolbar {
-//     padding: env(safe-area-inset-top) env(safe-area-inset-right)
-//       env(safe-area-inset-bottom) env(safe-area-inset-left);
-//   }
-// }
