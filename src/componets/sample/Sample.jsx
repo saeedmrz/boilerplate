@@ -1,4 +1,5 @@
 import classes from './sample.module.scss'
+import React from 'react'
 
 const Sample = () => {
   return (
