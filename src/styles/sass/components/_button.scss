@@ -14,8 +14,6 @@
   border: $button-border;
   border-radius: $button-border-radius;
   transition: 275ms ease;
-  // For PWA
-  user-select: none;
 
   &[data-type='accent'] {
     background-color: $button-accent-background;
