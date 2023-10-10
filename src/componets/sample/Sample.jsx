@@ -1,5 +1,5 @@
 import classes from './sample.module.scss'
-import React from 'react'
+
 import {afterAll} from 'vitest'
 
 const Sample = () => {
