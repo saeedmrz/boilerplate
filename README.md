@@ -1,6 +1,7 @@
 # Boilerplate
 
 This is a repo to create boilerplate for our projects:
+
 - React JS App
 - React TS App
 - PWA React JS App
@@ -8,6 +9,7 @@ This is a repo to create boilerplate for our projects:
 - PWA HTML/CSS/JS
 
 ## Folder Structure:
+
 - **api**:
 Contains the **API Layer** of the application. It will have methods that are responsible for performing API requests and communicating with a server.
 - **assets**:
